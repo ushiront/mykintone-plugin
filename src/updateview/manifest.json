@@ -1,0 +1,39 @@
+{
+    "manifest_version": 1,
+    "version": 2,
+    "type": "APP",
+    "name": {
+        "ja": "画面更新プラグイン",
+        "en": "Screen update plugin",
+        "zh": "Screen update plugin"
+    },
+    "description": {
+        "ja": "指定のページを一定間隔で画面更新するプラグインです。",
+        "en": "The page is a plug-in that screen updates at regular intervals.",
+        "zh": "The page is a plug-in that screen updates at regular intervals."
+    },
+    "icon": "img/icon.png",
+    "homepage_url": {
+        "ja": "https://cybozudev.zendesk.com/",
+        "en": "https://developer.kintone.io/",
+        "zh": "https://cybozudev.kf5.com/"
+    },
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.4/jquery.min.js",
+            "js/desktop-sample.js"
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.4/jquery.min.js",
+            "https://js.cybozu.com/jsrender/1.0.0-beta/jsrender.min.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/51-current-default.css"
+        ],
+        "required_params": ["loadpage_view", "loadpage_time"]
+    }
+}

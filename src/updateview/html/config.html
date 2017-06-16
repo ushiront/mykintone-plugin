@@ -1,0 +1,28 @@
+<div id="loadpage-plugin">
+
+    <div class="kintoneplugin-row">
+        <div class="kintoneplugin-label">{{:terms.loadpage_view_title}}<span class="kintoneplugin-require" id="required_field">*</span></div>
+        <div class="kintoneplugin-select-outer">
+            <div class="kintoneplugin-select">
+                <select id="loadpage-plugin-view">
+                    <option value="">--</option>
+                    <option value="View">{{:terms.loadpage_view_name_view}}</option>
+                    <option value="Report">{{:terms.loadpage_view_name_report}}</option>
+                    <option value="Detail">{{:terms.loadpage_view_name_detail}}</option>
+                </select>
+            </div>
+        </div>
+        <div>{{:terms.loadpage_view_description}}</div>
+
+        <div class="kintoneplugin-label">{{:terms.loadpage_time_title}}<span class="kintoneplugin-require" id="required_field">*</span></div>
+        <div class="kintoneplugin-input-outer"> 
+            <input id ="loadpage-plugin-time" class="kintoneplugin-input-text"></input>
+        </div>
+    </div>
+
+    <div class="form-submit">
+        <button class="kintoneplugin-button-dialog-ok" id="plugin_submit" type="button">{{:terms.plugin_submit}}</button>
+        <button class="kintoneplugin-button-dialog-cancel" id="plugin_cancel" type="button">{{:terms.plugin_cancel}}</button>
+    </div>
+    
+</div>

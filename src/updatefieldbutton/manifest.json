@@ -1,0 +1,42 @@
+{
+    "manifest_version": 1,
+    "version": 2,
+    "type": "APP",
+    "name": {
+        "ja": "更新ボタンプラグイン",
+        "en": "Update button plugin",
+        "zh": "Update button plugin"
+    },
+    "description": {
+        "ja": "レコード詳細画面からワンクリックでフィールドを更新できるプラグインです。",
+        "en": "Update button plugin",
+        "zh": "Update button plugin"
+    },
+    "icon": "img/icon.png",
+    "homepage_url": {
+        "ja": "https://cybozudev.zendesk.com/",
+        "en": "https://developer.kintone.io/",
+        "zh": "https://cybozudev.kf5.com/"
+    },
+    "desktop": {    
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.1/jquery.min.js",
+            "js/desktop-updatefieldbutton.js"
+        ],
+        "css": [
+            "css/51-current-default.css"
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/2.1.1/jquery.min.js",
+            "https://js.cybozu.com/jsrender/1.0.0-beta/jsrender.min.js",
+            "js/config.js"
+        ],
+        "css": [
+            "css/51-current-default.css"
+        ],
+        "required_params": ["updateFieldTitle"]
+    }
+}
